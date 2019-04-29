@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.uaus.cn/devops/jenkinsfilext/cmd"
+	"gitlab.uaus.cn/devops/jenkinsrender/cmd"
 )
 
 var (

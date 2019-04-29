@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"gitlab.uaus.cn/devops/jenkinsfilext/domain/common"
-	"gitlab.uaus.cn/devops/jenkinsfilext/jenkinsfile"
+	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
+	"gitlab.uaus.cn/devops/jenkinsrender/jenkinsfile"
 	"fmt"
 )
 

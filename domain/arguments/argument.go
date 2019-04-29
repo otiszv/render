@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.uaus.cn/devops/jenkinsfilext/domain/common"
+	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
 )
 
 type ArgSections []ArgSection

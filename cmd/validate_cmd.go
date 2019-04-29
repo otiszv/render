@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"gitlab.uaus.cn/devops/jenkinsfilext/domain"
-	"gitlab.uaus.cn/devops/jenkinsfilext/domain/common"
+	"gitlab.uaus.cn/devops/jenkinsrender/domain"
+	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
 )
 
 var validateCmd = &cobra.Command{

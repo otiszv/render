@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.uaus.cn/devops/jenkinsfilext/domain/arguments"
-	"gitlab.uaus.cn/devops/jenkinsfilext/domain/common"
-	"gitlab.uaus.cn/devops/jenkinsfilext/formatter"
+	"gitlab.uaus.cn/devops/jenkinsrender/domain/arguments"
+	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
+	"gitlab.uaus.cn/devops/jenkinsrender/formatter"
 
-	"gitlab.uaus.cn/devops/jenkinsfilext/goutils"
-	"gitlab.uaus.cn/devops/jenkinsfilext/jenkinsfile"
+	"gitlab.uaus.cn/devops/jenkinsrender/goutils"
+	"gitlab.uaus.cn/devops/jenkinsrender/jenkinsfile"
 )
 
 type PipelineTemplateSpec struct {

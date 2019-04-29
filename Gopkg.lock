@@ -34,6 +34,22 @@
   version = "v1.1.2"
 
 [[projects]]
+  digest = "1:f854f6084a346448983126043938fd46f5f82c70879511d357716c9eb72398cd"
+  name = "github.com/otiszv/render"
+  packages = [
+    "cmd",
+    "domain",
+    "domain/arguments",
+    "domain/common",
+    "formatter",
+    "goutils",
+    "jenkinsfile",
+  ]
+  pruneopts = "UT"
+  revision = "2e5bac0ff6eb972e323f97fb9ee3e06c5a1e519e"
+  version = "v0.0.1"
+
+[[projects]]
   branch = "master"
   digest = "1:22799aea8fe96dd5693abdd1eaa14b1b29e3eafbdc7733fa155b3cb556c8a7ae"
   name = "github.com/spf13/cobra"
@@ -42,20 +58,20 @@
   revision = "67fc4837d267bc9bfd6e47f77783fcc3dffc68de"
 
 [[projects]]
-  digest = "1:9424f440bba8f7508b69414634aef3b2b3a877e522d8a4624692412805407bb7"
+  digest = "1:c1b1102241e7f645bc8e0c22ae352e8f0dc6484b6cb4d132fa9f24174e0119e2"
   name = "github.com/spf13/pflag"
   packages = ["."]
   pruneopts = "UT"
-  revision = "583c0c0531f06d5278b7d917446061adc344b5cd"
-  version = "v1.0.1"
+  revision = "298182f68c66c05229eb03ac171abe6e309ee79a"
+  version = "v1.0.3"
 
 [[projects]]
-  digest = "1:342378ac4dcb378a5448dd723f0784ae519383532f5e70ade24132c4c8693202"
+  digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
   pruneopts = "UT"
-  revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
-  version = "v2.2.1"
+  revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
+  version = "v2.2.2"
 
 [solve-meta]
   analyzer-name = "dep"
@@ -64,6 +80,13 @@
     "github.com/bitly/go-simplejson",
     "github.com/ghodss/yaml",
     "github.com/mitchellh/mapstructure",
+    "github.com/otiszv/render/cmd",
+    "github.com/otiszv/render/domain",
+    "github.com/otiszv/render/domain/arguments",
+    "github.com/otiszv/render/domain/common",
+    "github.com/otiszv/render/formatter",
+    "github.com/otiszv/render/goutils",
+    "github.com/otiszv/render/jenkinsfile",
     "github.com/spf13/cobra",
   ]
   solver-name = "gps-cdcl"

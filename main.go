@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.uaus.cn/devops/jenkinsrender/cmd"
+	"github.com/otiszv/render/cmd"
 )
 
 var (

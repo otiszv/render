@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
+	"github.com/otiszv/render/domain/common"
 
 	"github.com/bitly/go-simplejson"
 	"github.com/ghodss/yaml"

@@ -1,6 +1,6 @@
 package domain
 
-import "gitlab.uaus.cn/devops/jenkinsrender/domain/common"
+import "github.com/otiszv/render/domain/common"
 
 type GlobalVar struct {
 	Name        string                `json:"name"`

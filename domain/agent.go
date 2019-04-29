@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
-	"gitlab.uaus.cn/devops/jenkinsrender/jenkinsfile"
+	"github.com/otiszv/render/domain/common"
+	"github.com/otiszv/render/jenkinsfile"
 	"fmt"
 )
 

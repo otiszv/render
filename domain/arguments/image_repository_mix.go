@@ -1,7 +1,7 @@
 package arguments
 
 import (
-	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
+	"github.com/otiszv/render/domain/common"
 	"encoding/json"
 	"fmt"
 )

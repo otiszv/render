@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"gitlab.uaus.cn/devops/jenkinsrender/domain/arguments"
-	"gitlab.uaus.cn/devops/jenkinsrender/domain/common"
+	"github.com/otiszv/render/domain/arguments"
+	"github.com/otiszv/render/domain/common"
 	"bytes"
 	"fmt"
 	"strings"

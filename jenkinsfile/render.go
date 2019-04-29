@@ -1,7 +1,7 @@
 package jenkinsfile
 
 import (
-	"gitlab.uaus.cn/devops/jenkinsrender/formatter"
+	"github.com/otiszv/render/formatter"
 	"bytes"
 	"fmt"
 	"text/template"
